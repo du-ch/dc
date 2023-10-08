@@ -15,7 +15,7 @@ provider "aws" {
 //resources
 	
 resource "aws_instance" "nginx" {
-	ami = "ami-123"
+	ami = "ami-1234"
 	instance_type = "t2.micro"
 	key_name = "${var.key_name}"
 }	
