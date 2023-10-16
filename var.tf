@@ -1,3 +1,3 @@
 variable "cred-file" {
-  default = "/Users/giuseppe/.aws/credentials"    # Apple OS X
+  default = "Users/DELL/.aws/credentials"    # aws on host under users
 }
